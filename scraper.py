@@ -20,9 +20,11 @@ SAVE_TO_CSV = True
 SEND_MAIL = True
 waitlist_CSV = "waitlist.csv"
 aftertracking_CSV = "aftertracking.csv"
-mail_user = 'xinyiwang1102@gmail.com'
-mail_pass = 'zneiqwepazfgybjm'
-mail_to = 'wxinyi26@gmail.com'
+
+# Edit your email address
+mail_user = ‘’
+mail_pass = ‘’
+mail_to = ‘’
 
 
 def get_urls(csv_file):
